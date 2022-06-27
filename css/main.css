@@ -1,0 +1,388 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace}
+
+.contianer{
+    max-width: 1170px;
+    padding:20px 20px;
+    margin: 0 auto;
+    left: calc(50% - 1170px/2);
+    top: calc(50% - 90px/2 - 2172px);
+}
+
+.header .contianer{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    background-image: url(../images/hero.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 120px;
+}
+
+
+.logo{
+    margin-top: 10px;
+}
+
+.nav__list{
+    display: flex;
+    margin-left: 160px;
+    list-style-type: none;
+}
+
+.nav__item{
+    margin-left: 30px;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__link--get{
+ color: #fff;
+ border: 2px solid #FFFFFF;
+ border-radius: 4px;
+ padding: 13px;
+ margin-left: 11px;
+ text-decoration: none;
+}
+
+.hedding{
+    text-align: center;
+    font-size: 71px;
+    color: #fff;
+}
+
+.hero__word{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom:60px;
+}
+
+.hero__link{
+    display: block;
+    width: 160px;
+    background-color: #5AB963;
+    border-radius: 10px;
+    color:#fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.hamburg__btn{
+    width: 30px;
+    height: 30px;
+    display: none;
+    border: none;
+    font-size: 20px;
+}
+
+.service__bold{
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.word__service{
+    color: #999;
+    font-size:18px;
+}
+
+.service{
+    max-width: 470px;
+    line-height: 35px;
+    margin-left: 35px;
+    margin-bottom: 85px;
+}
+
+.choose__list{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 115px;
+    list-style-type: none;
+}
+
+.choose__item{
+    max-width: 377px;
+    background-color: #F7F7F7;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid #F7F7F7;
+    filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.05));
+}
+
+.egg{
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.has{
+    max-width: 605px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 36px;
+    color: #999;
+    margin-bottom: 11px;
+}
+
+.has__link{
+    display: block;
+    color: #5AB963;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'IBM Plex Mono';
+    margin-bottom: 260px;
+}
+
+.has__bold{
+    font-size: 24px;
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+    color: #000;
+}
+
+.step__titel{
+    width: 362px;
+    line-height: 36px;
+    color: #999;
+}
+
+.step__bold{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.step__item{
+    display: flex;
+    flex-direction: reverse;
+    margin-bottom: 24px;
+    margin-bottom: 40px;
+}
+.step__item:nth-child(2){
+    flex-direction: reverse;
+    margin-top: 20px;
+}
+.step__box{
+    margin-left: 40px;
+}
+
+.step__word{
+    max-width: 360px;
+}
+
+.step__titel{
+    max-width: 240px;
+}
+
+.img__food{
+    width: auto;
+}
+
+.step__text{
+    text-align: center;
+    font-family: 'Libre Franklin';
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.step__link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #5AB963;
+    font-family: 'IBM Plex Mono';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.quas{
+    max-width: 400px;
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.quas__bold{
+    color: #000;
+}
+
+.quas__link{
+    display: block;
+    width: 160px;
+    height: 40px;
+    background-color: #5AB963;
+    border-radius: 10px;
+    color:#fff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 300px;
+    margin-top: 30px;
+}
+.box{
+    display: flex;
+    margin-top: 123px;
+}
+
+
+
+@media only screen and (max-width:936px){
+.nav__list{
+    display: none;
+}
+
+.egg{
+    width: 78%;
+}
+
+.site-header--open .nav__list{
+    display: block;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #fff;
+    padding: 17px;
+    border-radius: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.nav__item{
+    margin-bottom: 10px;
+}
+
+.nav__link--get{
+    display: none;
+}
+
+.nav__link{
+    color: #000;
+}
+
+.hamburg__btn{
+    display: block;
+    border: none;
+    background-color: antiquewhite;
+}
+} 
+@media only screen and (max-width:943px){
+    .step__item{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:822px){
+    .choose__list{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .choose__item{
+        margin-bottom: 24px;
+    }
+    .nav__link{
+        color: #000;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and(max-width:395px){
+    .hedding{
+        font-size: 65px;
+    }
+}
+
+@media only screen and(max-width:381px){
+    .word__service{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and(max-width:345px){
+    .hedding{
+        font-size: 15px;
+    }
+}
+
+.footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #0A0E1A;
+
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    padding: 31px 20px;
+}
+
+.socials{
+    display: flex;
+    margin-left: 111px;
+}
+
+.social{
+    margin-left: 22px;
+}
+
+@media only screen and(max-width: 1150px) {
+    .footer {
+        background-position: right -550px top -150px;
+    }
+}
+
+@media only screen and(max-width: 768px) {
+    .footer {
+        background-position: right calc(50% - 390px) top -150px;
+    }
+
+    .footer__logo {
+        margin-right: 64px;
+    }
+}
+
+@media only screen and(max-width: 700px) {
+    .footer__logo {
+        margin: 0;
+    }
+}
+
+@media only screen and(max-width: 600px) {
+    .footer {
+        background-position: right 50% bottom -603px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        padding-top: 41px;
+        padding-bottom: 55px;
+    }
+
+    .footer__logo {
+        margin-bottom: 40px;
+    }
+}
